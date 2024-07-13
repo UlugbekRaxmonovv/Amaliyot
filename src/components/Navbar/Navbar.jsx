@@ -17,6 +17,7 @@ import { HiOutlineMenu } from "react-icons/hi";
 import { VscChromeClose } from "react-icons/vsc";
 import './Navbar.scss'
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import AOS from '../AOS/index'
 
 const Navbar = () => {
     const [show,setShow] = useState(false)
@@ -53,18 +54,19 @@ const Navbar = () => {
     };
     return (
        <header  onMouseLeave={handleHide1}>
-     <div className="container">
+        <AOS/>
+     <div className="container"  data-aos="zoom-in-down">
         <nav onMouseLeave={handleHide} >
         <Image src={logo}  alt='rasm'/>
             <ul className={`ul_list ${menu ? "menu" : "close"}`} onMouseLeave={handleHide2}>
                 <div className="ikon">
-                <Image src={logo}  alt='rasm'/>
+               <Link href={'/'}> <Image src={logo}  alt='rasm'/></Link>
                     <div className="ikon_all">
    <VscChromeClose onClick={() =>setmenu(false)} />
                     </div>
                 </div>
                 <li>
-                    <Link href={'#Ourservices'}>Direction</Link>
+                    <Link href={'#Ourservices'} className='li'>Direction</Link>
                 </li>
                 <li>
                     <Link href={'#Team'}>Command</Link>
@@ -84,7 +86,7 @@ const Navbar = () => {
                       <div className={`links ${show1 ? "fixs" : ""}` } >
                         <p>Services</p>
                         <div className="list_link">
-                        <Link href={'/'}>
+                        <Link href={'#Development'}>
                             <div className="g">
                             <div className="g_all">
                                 <Image src={rasm4}  alt='rasm'/> 
@@ -143,13 +145,13 @@ const Navbar = () => {
                       </div>
                 </li>
                 <li>
-                    <Link href={'#Tools'}>Tools</Link>
+                    <Link href={'#Tools'}className='li'>Tools</Link>
                 </li>
                 <li>
                     <Link href={'#clients'}>Clients</Link>
                 </li>
                 <li>
-                     <Link href={'#Deliver'}>
+                     <Link href={'#Deliver'} className='li'>
                        <div className="p1"  onMouseEnter={handelShow} >
                        <div className="p">
                         <p>Portfolio</p>
@@ -211,7 +213,7 @@ const Navbar = () => {
                       </div>
                 </li>
                 <li>
-                     <Link href={'/'}>
+                     <Link href={'/'} className='li'>
                        <div className="p1"  onMouseEnter={Language1} >
                        <div className="p">
                         <p>Language</p>

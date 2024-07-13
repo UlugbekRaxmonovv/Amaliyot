@@ -7,9 +7,11 @@ import rasm6 from '../../img/sklo1.svg'
 import rasm7 from '../../img/sklo.svg'
 import Image from 'next/image';
 import rasm8 from '../../img/ITconsulting.svg'
+import AOS from '../AOS/index'
 const ITconsulting = () => {
     return (
       <>
+      <AOS/>
       <section id='ITconsulting'>
    <div className="container">
      <div className="h1">
@@ -61,7 +63,7 @@ const ITconsulting = () => {
                </div>
         </div>
         <div className="ITconsulting_all">
-          <Image src={rasm8}  alt='rasm'/>
+          <Image src={rasm8}  alt='rasm' data-aos="zoom-in-up"/>
         </div>
      </div>
    </div>

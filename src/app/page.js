@@ -9,7 +9,9 @@ import Tools from '../components/Tools/Tools.jsx';
 import Deliver from "@/components/Deliver/Deliver.jsx";
 import ITconsulting from "@/components/ITconsulting/ITconsulting.jsx";
 import Optimization from "@/components/Optimization/Optimization.jsx";
-
+import Development from '../components/Development/Development.jsx'
+import ERPsystems from "@/components/ERPsystems/ERPsystems.jsx";
+import UIUXdesign from "@/components/UIUXdesign/UIUXdesign.jsx";
 export default function Home() {
   return (
   <>
@@ -17,6 +19,9 @@ export default function Home() {
    <Main />
    <Ourservices />  
    <Team /> 
+   <Development />
+   <ERPsystems />
+   <UIUXdesign/>
    <Optimization />
    <Ourclients />
    <ITconsulting /> 

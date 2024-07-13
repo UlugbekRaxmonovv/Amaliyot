@@ -2,10 +2,12 @@ import React from 'react';
 import './Team.scss'
 import rasm from '../../img/team.svg'
 import Image from 'next/image';
+import AOS from '../AOS/index'
 
 const Team = () => {
     return (
      <>
+     <AOS/>
      <section id='Team'>
          <div className="container">
           <div className="h1">
@@ -17,7 +19,7 @@ const Team = () => {
          <h1>100+</h1>
          <h4>Dedicated team</h4>
         </div>
-        <div className='member'>
+        <div className='member' data-aos="zoom-in-up">
           <Image src={rasm} alt='rasm' />
         </div>
       

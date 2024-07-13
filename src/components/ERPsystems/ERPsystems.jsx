@@ -1,23 +1,21 @@
 import React from 'react';
-import './Optimization.scss'
+import './ERPsystems.scss'
 import Image from 'next/image';
 import rasm1 from '../../img/orqafon.png'
 import rasm from '../../img/orqa.png'
-import rasm3 from '../../img/glo.svg'
-import rasm4 from '../../img/sklo2.svg'
-import rasm5 from '../../img/glo3.svg'
-import rasm6 from '../../img/sklo1.svg'
-import rasm7 from '../../img/sklo.svg'
+import rasm3 from '../../img/erp.svg'
+import rasm4 from '../../img/erp1.svg'
+import rasm5 from '../../img/erp2.svg'
+import rasm6 from '../../img/erp3.svg'
+import rasm7 from '../../img/erp4.svg'
 import AOS from '../AOS/index'
-
-const Optimization = () => {
+const ERPsystems = () => {
     return (
-       <>
-       <AOS/>
-       <section id='Optimization'>
+        <section id='ERPsystems'>
+            <AOS/>
     <div className="container">
         <div className="h1">
-            <h1>Optimization <br /> Infrastructure</h1>
+            <h1>ERP systems</h1>
         </div>
         <div className="Optimization_All">
             <div className="Optimization_row">
@@ -34,7 +32,7 @@ const Optimization = () => {
 
             <div className="Optimization_row">
                 <p>
-                Our experienced professionals will help you optimize your infrastructure
+                IT Systems of any level of complexity at a convenient time for you
                 </p>
                 <div className="glo">
                 <div className="glo">
@@ -76,12 +74,7 @@ const Optimization = () => {
                  </div>
                 </div>
 
-                <div className="glo">
-                 <div className="img">
-                 <Image src={rasm7}  alt='rasm'/>
-                  <p>Mobile design</p>
-                 </div>
-                </div>
+              
              
                </div>
             </div>
@@ -89,8 +82,7 @@ const Optimization = () => {
      
     </div>
        </section>
-       </>
     );
 }
 
-export default Optimization;
+export default ERPsystems;

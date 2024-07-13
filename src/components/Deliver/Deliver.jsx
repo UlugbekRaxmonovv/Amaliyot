@@ -9,10 +9,12 @@ import rasm4 from '../../img/glo1.svg'
 import rasm5 from '../../img/glo3.svg'
 import rasm6 from '../../img/glo6.svg'
 import rasm7 from '../../img/glo4.svg'
+import AOS from '../AOS/index'
 
 const Deliver = () => {
     return (
         <>
+        <AOS/>
         <section id='Deliver'>
             <div className="container">
              <div className="Deliver_all">
@@ -30,13 +32,14 @@ const Deliver = () => {
              </div>
             <div className="main_row">
             <div className="main_all">
-                <Image src={rasm1}  alt='rasm'/>
+                <Image src={rasm1}  alt='rasm'  data-aos="zoom-in"/>
                 </div>
                 <div className="main_all">
                <p>Delever - Delivery service automation targeted at both consumers and restaurants.</p>
                <h4>What we did?</h4>
    
-               <div className="glo">
+               <div className="glo" data-aos="fade-up"
+     data-aos-duration="200">
                 <div className="glo">
                  <div className="img">
                  <Image src={rasm3}  alt='rasm'/>

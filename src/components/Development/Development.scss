@@ -1,0 +1,322 @@
+#Development{
+    padding: 20px 0;
+    margin-top: 40px;
+    .Optimization_All{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: self-start;
+       .Optimization_row{
+           .Optimization_img{
+        .img{
+            img{  
+                // position: absolute;
+            position: relative;
+
+                max-width: 500px;
+                height: 562px;
+                width: 100%;
+                // z-inde   x: -0;    
+            }
+            .absolut{
+                margin-top: -520px !important;
+                position: absolute;
+                width: 500px;
+                height: 472px;
+            }
+        
+        }
+    
+          
+       }
+      
+       p{
+        font-size: 24px;
+        font-weight: 400;
+        color: #313131;
+        max-width: 470px;
+        width: 100%;
+        line-height: 32px;
+
+    }
+    .glo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding: 20px 0;
+        margin-top: 10px;
+        width: 500px;
+        .glo{
+            max-width: 150px;
+            width: 100%;
+            height: 117px;
+            background-color: #E0E8FF;
+            border-radius: 10px;
+    
+            .img{
+                padding: 0px 20px;
+                img{
+                    width: 56px;
+                    height: 56px;
+                }
+                P{
+                    margin-top: -2px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    text-wrap: nowrap;
+                }
+            }
+        }
+    }
+    .tx{
+        padding: 40px 0;
+        h4{
+            font-size: 32px;
+            color: #464359;
+            font-weight: 550;
+        }
+        .tx_skills{
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            padding:40px 0;
+            .tx_skills_all{
+                img{
+                    width: 56px;
+                    height: 56px;
+                    object-fit: contain;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    }
+}
+}
+
+@media(max-width:900px){
+    #Development{
+        padding: 20px 0;
+        background-color: #F4F7FF;
+        margin-top: 40px;
+        .Optimization_All{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: self-start;
+            flex-wrap: wrap;
+           .Optimization_row{
+               .Optimization_img{
+            .img{
+                img{  
+                    // position: absolute;
+                position: relative;
+    
+                    max-width: 500px;
+                    height: 558px;
+                    width: 100%;
+                    // z-inde   x: -0;    
+                }
+                .absolut{
+                    margin-top: -420px !important;
+                    position: absolute;
+                    max-width: 400px;
+                    width: 100%;
+                    height: 296px;
+                }
+            
+            }
+           
+           }
+          
+           p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #313131;
+            max-width: 470px;
+            width: 100%;
+            line-height: 32px;
+    
+        }
+        .glo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px 0;
+            margin-top: 10px;
+            width: 400px;
+            .glo{
+                max-width: 150px;
+                width: 100%;
+                height: 117px;
+                background-color: #E0E8FF;
+                border-radius: 10px;
+        
+                .img{
+                    padding: 0px 20px;
+                    img{
+                        width: 56px;
+                        height: 56px;
+                    }
+                    P{
+                        margin-top: -2px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-wrap: nowrap;
+                    }
+                }
+            }
+        }
+        }
+    }
+    }
+}
+@media(max-width:400px){
+    .h1{
+        h1{
+            font-size: 32px;
+        }
+    }
+    #Development{
+        padding: 20px 0;
+        background-color: #F4F7FF;
+        margin-top: 40px;
+        .Optimization_All{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: self-start;
+            flex-wrap: wrap;
+           .Optimization_row{
+               .Optimization_img{
+            .img{
+                img{  
+                    // position: absolute;
+                position: relative;
+    
+                    max-width: 400px;
+                    height: 300px;
+                    width: 100%;
+                   
+                }
+                .absolut{
+                    margin-top: -240px !important;
+                    position: absolute;
+                    width: 320px;
+                    height: 200px;
+                }
+            
+            }
+              
+           }
+          
+           p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #313131;
+            max-width: 470px;
+            width: 100%;
+            line-height: 32px;
+            margin-top: 20%;
+    
+        }
+        .glo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 20px 0;
+            margin-top: 10px;
+            width: 300px;
+            .glo{
+                max-width: 160px;
+                width: 100%;
+                height: 117px;
+                background-color: #E0E8FF;
+                border-radius: 10px;
+        
+                .img{
+                    padding: 0px 20px;
+                    img{
+                        width: 56px;
+                        height: 56px;
+                    }
+                    P{
+                        margin-top: -2px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        text-wrap: nowrap;
+                    }
+                }
+            }
+        }
+        }
+    }
+    }
+}
+
+@media(max-width:360px){
+    #Development{
+        padding: 20px 0;
+        background-color: #F4F7FF;
+        margin-top: 40px;
+        .Optimization_All{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: self-start;
+            flex-wrap: wrap;
+           .Optimization_row{
+               .Optimization_img{
+            .img{
+                img{  
+                    // position: absolute;
+                position: relative;
+    
+                    max-width: 400px;
+                    height: 300px;
+                    width: 100%;
+                   
+                }
+                .absolut{
+                    margin-top: -240px !important;
+                    position: absolute;
+                    width: 300px;
+                    height: 200px;
+                }
+            
+            }
+              
+           }
+          
+           p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #313131;
+            max-width: 470px;
+            width: 100%;
+            line-height: 32px;
+            margin-top: 2%;
+    
+        }
+        .glo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 20px 40px;
+            margin-top: 10px;
+            width: 300px;
+            .glo{
+                width: 150px;
+            }
+         
+        }
+        }
+    }
+    }
+}
