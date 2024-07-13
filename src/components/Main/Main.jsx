@@ -8,7 +8,7 @@ const Main = () => {
         <div className='container'> 
            <div className="main">
            <div className="main_all">
-              <Image src={logo}/>   
+              <Image src={logo}  alt='rasm'/>   
               <h1>IT-Outsourcing Company</h1>
               <h1>Development and implementation ERP systems</h1>
 
@@ -16,7 +16,7 @@ const Main = () => {
             </div>
             <div className="main_all">
             <div className="imf">
-            <Image src={rasm}/>   
+            <Image src={rasm}  alt='rasm'/>   
             </div>
              
             </div>

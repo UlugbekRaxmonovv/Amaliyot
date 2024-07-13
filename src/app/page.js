@@ -9,6 +9,7 @@ import Tools from '../components/Tools/Tools.jsx';
 import Deliver from "@/components/Deliver/Deliver.jsx";
 import ITconsulting from "@/components/ITconsulting/ITconsulting.jsx";
 import Optimization from "@/components/Optimization/Optimization.jsx";
+
 export default function Home() {
   return (
   <>
@@ -23,7 +24,6 @@ export default function Home() {
    <Deliver />
    <Contact />
    <Footer />
- 
   </>
   );
 }

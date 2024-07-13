@@ -8,57 +8,57 @@ import rasm3 from '../../img/tv.svg'
 import rasm4 from '../../img/wor.svg'
 import rasm5 from '../../img/st.svg'
 const Ourservices = () => {
-    return (
-       <>
+return (
+     <>
      <section id='Ourservices'>
-        <div className="container">
-        <div className="h1">
-                <h1>
-                Our services
-                </h1>
-            </div>
+     <div className="container">
+     <div className="h1">
+               <h1>
+               Our services
+               </h1>
+          </div>
 <div className="Ourservices_all">
 <div className="Ourservices_row">
 <div className="svg">
-   <Image src={rasm}/>
+<Image src={rasm}  alt='rasm'/>
      <p>Team</p>
-   </div>
+</div>
 </div>
 <div className="Ourservices_row">
 <div className="svg">
-     <Image src={rasm1}/>
+     <Image src={rasm1}  alt='rasm'/>
      <p>Development of mobile applications</p>
      </div>
 </div>
 <div className="Ourservices_row">
 <div className="svg">
-     <Image src={rasm2}/>
+     <Image src={rasm2}  alt='rasm'/>
      <p>Development and implementation ERP systems</p>
-    </div>
+</div>
 </div>
 <div className="Ourservices_row">
-<div className="svg">
-     <Image src={rasm4}/>
+<div className="svg"> 
+     <Image src={rasm4}  alt='rasm'/>
      <p>User interface, User experience design</p>
      </div>
 </div>
 <div className="Ourservices_row">
 <div className="svg">
-     <Image src={rasm5}/>
+     <Image src={rasm5}  alt='rasm'/>
      <p>User interface, User experience design</p>
      </div>
 </div>
 <div className="Ourservices_row">
 <div className="svg">
-     <Image src={rasm3}/>
+     <Image src={rasm3}  alt='rasm'/>
      <p>IT consulting</p>
      </div>
 </div>
 </div>
 </div>
      </section>
-       </>
-    );
+     </>
+);
 }
 
 export default Ourservices;

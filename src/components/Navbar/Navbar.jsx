@@ -53,10 +53,10 @@ const Navbar = () => {
        <header  onMouseLeave={handleHide1}>
      <div className="container">
         <nav onMouseLeave={handleHide} >
-        <Image src={logo}/>
+        <Image src={logo}  alt='rasm'/>
             <ul className={`ul_list ${menu ? "menu" : "close"}`} onMouseLeave={handleHide2}>
                 <div className="ikon">
-                <Image src={logo}/>
+                <Image src={logo}  alt='rasm'/>
                     <div className="ikon_all">
    <VscChromeClose onClick={() =>setmenu(false)} />
                     </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                         <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm4}/> 
+                                <Image src={rasm4}  alt='rasm'/> 
                                 </div>
                             <div className="g_all">
                                 <p>Development of mobile applications</p>
@@ -96,7 +96,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm5}/>
+                                <Image src={rasm5}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Development and implementation ERP systems</p>
@@ -107,7 +107,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm6}/>
+                                <Image src={rasm6}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>User interface, User experience design</p>
@@ -118,7 +118,7 @@ const Navbar = () => {
                             <Link href={'#ITconsulting'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm7}/>
+                                <Image src={rasm7}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>IT consulting</p>
@@ -129,7 +129,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm8}/>
+                                <Image src={rasm8}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Optimization IT consulting infrastructure</p>
@@ -161,10 +161,10 @@ const Navbar = () => {
                       <div className={`link ${show ? "fix" : ""}` } >
                         <p>Portfolio</p>
                         <div className="list_link">
-                        <Link href={'/'}>
+                        <Link href={'/'} >
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm}/> 
+                                <Image src={rasm}  alt='rasm'/> 
                                 </div>
                             <div className="g_all">
                                 <p>Goodzone</p>
@@ -175,7 +175,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm2}/>
+                                <Image src={rasm2}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Sms.uz</p>
@@ -186,7 +186,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm3}/>
+                                <Image src={rasm3}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Delever</p>
@@ -197,7 +197,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm1}/>
+                                <Image src={rasm1}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Iman</p>
@@ -225,7 +225,7 @@ const Navbar = () => {
                         <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm4}/> 
+                                <Image src={rasm4}  alt='rasm'/> 
                                 </div>
                             <div className="g_all">
                                 <p>Development of mobile applications</p>
@@ -236,7 +236,7 @@ const Navbar = () => {
                             <Link href={'/'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm5}/>
+                                <Image src={rasm5}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>Development and implementation ERP systems</p>

@@ -17,11 +17,11 @@ const Deliver = () => {
             <div className="container">
              <div className="Deliver_all">
                 <div className="Deliver_row">
-            <Image src={rasm}/>
+            <Image src={rasm}  alt='rasm'/>
                 </div>
                 <div className="p1">
                <div className="p2">
-                <Image src={rasm2}/>
+                <Image src={rasm2}  alt='rasm'/>
                 </div>
                 <div className="p2">
               <p>Delivery</p>
@@ -30,7 +30,7 @@ const Deliver = () => {
              </div>
             <div className="main_row">
             <div className="main_all">
-                <Image src={rasm1}/>
+                <Image src={rasm1}  alt='rasm'/>
                 </div>
                 <div className="main_all">
                <p>Delever - Delivery service automation targeted at both consumers and restaurants.</p>
@@ -39,31 +39,31 @@ const Deliver = () => {
                <div className="glo">
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm3}/>
+                 <Image src={rasm3}  alt='rasm'/>
                   <p>Website</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm4}/>
+                 <Image src={rasm4}  alt='rasm'/>
                   <p>Admin panel</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm5}/>
+                 <Image src={rasm5}  alt='rasm'/>
                   <p>Crossplatform</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Web design</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm6}/>
+                 <Image src={rasm6 }  alt='rasm' />
                   <p>Mobile design</p>
                  </div>
                 </div>

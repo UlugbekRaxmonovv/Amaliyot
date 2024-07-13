@@ -21,10 +21,10 @@ const Optimization = () => {
             <div className="Optimization_row">
                 <div className="Optimization_img">
                   <div className="img">
-                  <Image src={rasm1} alt="orqafon" width={300} height={200} />
+                  <Image src={rasm1} alt="orqafon"   width={300} height={200} />
                   </div>
                   <div className="img">
-                  <Image src={rasm} className='absolut' />
+                  <Image src={rasm} className='absolut'  alt='rasm' />
                   </div>
                
                 </div>
@@ -37,31 +37,31 @@ const Optimization = () => {
                 <div className="glo">
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm3}/>
+                 <Image src={rasm3}  alt='rasm'/>
                   <p>Website</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm4}/>
+                 <Image src={rasm4}  alt='rasm'/>
                   <p>Admin panel</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm5}/>
+                 <Image src={rasm5}  alt='rasm'/>
                   <p>Crossplatform</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Web design</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm6}/>
+                 <Image src={rasm6}  alt='rasm'/>
                   <p>Mobile design</p>
                  </div>
                 </div>
@@ -69,14 +69,14 @@ const Optimization = () => {
 
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Mobile design</p>
                  </div>
                 </div>
 
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Mobile design</p>
                  </div>
                 </div>

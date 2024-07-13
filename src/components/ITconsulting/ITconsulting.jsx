@@ -21,31 +21,31 @@ const ITconsulting = () => {
             <div className="glo">
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm3}/>
+                 <Image src={rasm3}  alt='rasm'/>
                   <p>Website</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm4}/>
+                 <Image src={rasm4}  alt='rasm'/>
                   <p>Admin panel</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm5}/>
+                 <Image src={rasm5}  alt='rasm'/>
                   <p>Crossplatform</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Web design</p>
                  </div>
                 </div>
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm6}/>
+                 <Image src={rasm6}  alt='rasm'/>
                   <p>Mobile design</p>
                  </div>
                 </div>
@@ -53,7 +53,7 @@ const ITconsulting = () => {
 
                 <div className="glo">
                  <div className="img">
-                 <Image src={rasm7}/>
+                 <Image src={rasm7}  alt='rasm'/>
                   <p>Mobile design</p>
                  </div>
                 </div>
@@ -61,7 +61,7 @@ const ITconsulting = () => {
                </div>
         </div>
         <div className="ITconsulting_all">
-          <Image src={rasm8}/>
+          <Image src={rasm8}  alt='rasm'/>
         </div>
      </div>
    </div>

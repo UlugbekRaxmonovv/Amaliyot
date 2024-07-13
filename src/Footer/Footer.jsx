@@ -12,7 +12,7 @@ const Footer = () => {
        <div className="f_w container">
       <div className="img">
         <div className="img_all">
-        <Image src={logo}/>
+        <Image src={logo}  alt='rasm'/>
         </div>
       </div>
        <div className="footir_row">

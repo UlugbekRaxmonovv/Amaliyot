@@ -29,24 +29,24 @@ const Ourclients = () => {
             <marquee behavior="" direction="" scrollamount="5">
           <div className="img_row">
           <div className="img">
-               <Image src={rasm}/>
+               <Image src={rasm}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm1}/>
+               <Image src={rasm1 }  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm2}/>
+               <Image src={rasm2}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm3}/>
+               <Image src={rasm3}  alt='rasm'/>
                </div>  <div className="img">
-               <Image src={rasm4}/>
+               <Image src={rasm4}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm5}/>
+               <Image src={rasm5}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm6}/>
+               <Image src={rasm6}  alt='rasm'/>
                </div>
           </div>
 
@@ -55,30 +55,30 @@ const Ourclients = () => {
             <marquee behavior="" direction="right" scrollamount="5">
           <div className="img_row">
           <div className="img">
-               <Image src={rasm7}/>
+               <Image src={rasm7}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm8}/>
+               <Image src={rasm8}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm9}/>
+               <Image src={rasm9}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm10}/>
+               <Image src={rasm10}  alt='rasm'/>
                </div>  <div className="img">
-               <Image src={rasm11}/>
+               <Image src={rasm11}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm12}/>
+               <Image src={rasm12}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm13}/>
+               <Image src={rasm13}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm14}/>
+               <Image src={rasm14}  alt='rasm'/>
                </div>
                <div className="img">
-               <Image src={rasm15}/>
+               <Image src={rasm15}  alt='rasm'/>
                </div>
           </div>
 

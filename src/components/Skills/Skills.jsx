@@ -11,15 +11,17 @@ const Skills = ({data,category}) => {
 
 
     let products__category = category?.map(category => (
-        <>
+        <div   key={category.id}>
+       
          <Radio
+        
         onClick={() => setValue(category?.title)} 
         value="a"
         name="radio-buttons"
         inputProps={{ 'aria-label': 'A' }}
       />
-          <button onClick={() => setValue(category?.title)} className='category__btn' key={category.id}>{category.title}</button>
-        </>
+          <button onClick={() => setValue(category?.title)} className='category__btn'>{category.title}</button>
+        </div>
       ))
      const categoryFilter = value === "All" ? data : data.filter(el => el?.category === value)
      
