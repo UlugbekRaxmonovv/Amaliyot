@@ -1,5 +1,5 @@
 "use client"
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import logo from '../../img/logo.svg'
 import Image from 'next/image';
 import Link from 'next/link';
@@ -25,6 +25,14 @@ const Navbar = () => {
     const [menu,setmenu] = useState(false)
     document.body.style.overflow =  menu ? "hidden" : "auto"
 
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+          // Safe to use document here
+          const navbar = document.getElementById('navbar');
+          // Your logic
+        }
+      }, []);
+    
    
     const handelShow = () => {
         setShow(!show)     
