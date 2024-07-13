@@ -23,17 +23,11 @@ const Navbar = () => {
     const [show1,setShow1] = useState(false)
     const [Language,seLanguage] = useState(false)
     const [menu,setmenu] = useState(false)
-    // document.body.style.overflow =  menu ? "hidden" : "auto"
-
     useEffect(() => {
-        if (typeof window !== 'undefined') {
-          // Safe to use document here
-          const navbar = document.getElementById('navbar');
-          // Your logic
+        if (typeof window !== 'undefined') { 
+    document.body.style.overflow = menu ? 'hidden' : 'auto';
         }
-      }, []);
-    
-   
+      }, [menu]);   
     const handelShow = () => {
         setShow(!show)     
     }
