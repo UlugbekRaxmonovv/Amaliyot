@@ -12,6 +12,7 @@ import rasm4 from '../../img/mobile.svg'
 import rasm5 from '../../img/ERPsystems.svg'
 import rasm6 from '../../img/design.svg'
 import rasm7 from '../../img/ITconsulting.svg'
+import It_ from '../../img/it.svg'
 import rasm8 from '../../img/infrastructure.svg'
 import { HiOutlineMenu } from "react-icons/hi";
 import { VscChromeClose } from "react-icons/vsc";
@@ -151,7 +152,7 @@ const Navbar = () => {
                             <Link href={'#ITconsulting'}>
                             <div className="g">
                             <div className="g_all">
-                                <Image src={rasm7}  alt='rasm'/>
+                                <Image src={It_}  alt='rasm'/>
                                 </div>
                             <div className="g_all">
                                 <p>IT consulting</p>
