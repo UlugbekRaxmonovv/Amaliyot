@@ -15,10 +15,14 @@ import UIUXdesign from "@/components/UIUXdesign/UIUXdesign.jsx";
 import HowWeWork from "@/components/HowWeWork/HowWeWork.jsx";
 import Iman from '../components/Iman/Iman.jsx'
 import Smsuz from "@/components/Smsuz/Smsuz.jsx";
+import { BiMessageRoundedDots } from "react-icons/bi";
+
 import Commerce from "@/components/Commerce/Commerce.jsx";
 export default function Home() {
   return (
   <>
+  
+   
    <Navbar />
    <Main />
    <Ourservices />  
