@@ -1,0 +1,13 @@
+{
+    "navbar":{
+        "Direction":"Direction",
+        "Command":"Command",
+        "Services":"Services",
+        "Tools":"Tools",
+        "Clients":"Clients",
+        "Language":"Language",
+        "Contact":"Contact"
+    },
+    "Company":"IT-Outsourcing Company",
+    "Development":"Development and implementation ERP systems"
+}

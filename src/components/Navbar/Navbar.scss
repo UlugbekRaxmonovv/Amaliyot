@@ -25,6 +25,7 @@ header {
       display: flex;
       align-items: center;
       text-decoration: none;
+      gap: 10px;
       .ikon{
         display: none;
       }
@@ -53,9 +54,12 @@ header {
         position: relative;
         margin: 0 10px;
         list-style: none;
+
+
         .p1 {
           display: flex;
           gap: 5px;
+         
           .p {
             display: flex;
             svg {
@@ -63,6 +67,52 @@ header {
               color: black;
             }
           }
+        }
+        .custom-options{
+          position: absolute;
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 90px;
+          height: 100px;
+          box-shadow:  1px 1px 5px 1px #f3f3f3;
+          background-color: white;
+          border-radius: 8px;     
+          cursor: pointer;
+       .img {
+        display: flex;
+        align-items: center;
+        .custom-option {
+          display: flex;
+          padding: 5px;
+          margin-bottom: 2px;
+          cursor: pointer;
+    
+          img {
+            width: 30px;
+            height: 30px;
+            margin-right: 5px;
+         object-fit: cover;
+          }
+          p{
+            font-size: 14px;
+            font-weight: 550;
+            color: black;
+          }
+    
+         
+        }
+        &:hover {
+          background-color: #1976d2;
+          // width: 100%;
+        }
+       }
+         
+        }
+        &:hover .custom-options {
+          display: block;
         }
         .btn p {
           padding: 12px 32px;

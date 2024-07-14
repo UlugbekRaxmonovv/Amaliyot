@@ -12,6 +12,7 @@ import Optimization from "@/components/Optimization/Optimization.jsx";
 import Development from '../components/Development/Development.jsx'
 import ERPsystems from "@/components/ERPsystems/ERPsystems.jsx";
 import UIUXdesign from "@/components/UIUXdesign/UIUXdesign.jsx";
+import HowWeWork from "@/components/HowWeWork/HowWeWork.jsx";
 export default function Home() {
   return (
   <>
@@ -27,6 +28,7 @@ export default function Home() {
    <ITconsulting /> 
    <Tools />
    <Deliver />
+   <HowWeWork />
    <Contact />
    <Footer />
   </>

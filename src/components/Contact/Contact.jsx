@@ -29,14 +29,14 @@ const Contact = () => {
     initialValues: {
       name: '',
       email: '',
-      projectDescription: '',
+      comments: '',
     },
     validationSchema: validationSchema,
     onSubmit: (values) => {
       let text = "Buyurtma %0A%0A"
       text +=`Ismi:${values.name}%0A`
       text +=`Email:${values.email}%0A`
-      text +=`Text:${values.projectDescription}%0A`
+      text +=`Text:${values.comments}%0A`
       let url = `https://api.telegram.org/bot${Bot_Token}/sendMessage?chat_id=${Chat_ID}&text=${text}`
   
       let api = new XMLHttpRequest()
@@ -95,12 +95,12 @@ const Contact = () => {
                     <TextField
                       className="input"
                       id="projectDescription"
-                      name="projectDescription"
+                      name="comments"
                       label="Briefly describe your project"
                       multiline
                       rows={4}
                       variant="outlined"
-                      value={formik.values.projectDescription}
+                      value={formik.values.comments}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
                     />

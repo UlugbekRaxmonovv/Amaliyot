@@ -18,6 +18,11 @@ import { VscChromeClose } from "react-icons/vsc";
 import './Navbar.scss'
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import AOS from '../AOS/index'
+import flagEN from '../../img/aqsh.png';
+import flagRU from '../../img/rus2.jpg';
+import { useTranslation } from 'react-i18next';
+import '../../app/i18n'
+
 
 const Navbar = () => {
     const [show,setShow] = useState(false)
@@ -29,6 +34,22 @@ const Navbar = () => {
     document.body.style.overflow = menu ? 'hidden' : 'auto';
         }
       }, [menu]);   
+
+
+      let {t,i18n} =  useTranslation() 
+      const [lange,setLange] =useState( localStorage.getItem("i18nextLng")  || 'en')
+  
+  
+      useEffect(() =>{
+          i18n.changeLanguage(lange)
+       },[lange])
+  
+       const handleLanguageChange = (lang) => {
+          setLange(lang);
+          localStorage.setItem("i18nextLng", lang);
+          i18n.changeLanguage(lang);
+        };
+
     const handelShow = () => {
         setShow(!show)     
     }
@@ -52,6 +73,9 @@ const Navbar = () => {
         seLanguage(false);
       
     };
+
+
+
     return (
        <header  onMouseLeave={handleHide1}>
         <AOS/>
@@ -66,16 +90,16 @@ const Navbar = () => {
                     </div>
                 </div>
                 <li>
-                    <Link href={'#Ourservices'} className='li'>Direction</Link>
+                    <Link href={'#Ourservices'} className='li'>{t("navbar.Direction")}</Link>
                 </li>
                 <li>
-                    <Link href={'#Team'}>Command</Link>
+                    <Link href={'#Team'}>{t("navbar.Command")}</Link>
                 </li>
                 <li>
                      <Link href={'/'}>
                        <div className="p1"  onMouseEnter={handelShow1} >
                        <div className="p">
-                        <p>Services</p>
+                        <p>{t("navbar.Services")}</p>
                         </div>
                         <div className="p">
                         <VscChevronDown />
@@ -145,10 +169,10 @@ const Navbar = () => {
                       </div>
                 </li>
                 <li>
-                    <Link href={'#Tools'}className='li'>Tools</Link>
+                    <Link href={'#Tools'}className='li'>{t("navbar.Tools")}</Link>
                 </li>
                 <li>
-                    <Link href={'#clients'}>Clients</Link>
+                    <Link href={'#clients'}>{t("navbar.Clients")}</Link>
                 </li>
                 <li>
                      <Link href={'#Deliver'} className='li'>
@@ -216,45 +240,40 @@ const Navbar = () => {
                      <Link href={'/'} className='li'>
                        <div className="p1"  onMouseEnter={Language1} >
                        <div className="p">
-                        <p>Language</p>
+                        <p>{t("navbar.Language")}</p>
                         </div>
                         <div className="p">
                         <VscChevronDown />
                         </div>
+                        
                        </div>
+                          
+                       <div className="custom-options">
+                 <div className="img">
+                 <div className="custom-option" onClick={() => handleLanguageChange('en')}>
+                    <Image  src={flagEN} alt="English" />
+                  </div>
+                  <div className="custom-option" onClick={() => handleLanguageChange('en')}>
+                  <p>Eng</p>
+                  </div>
+                 </div>
+                 <div className="img">
+                 <div className="custom-option" onClick={() => handleLanguageChange('ru')}>
+                    <Image  src={flagRU} alt="Russian" /> 
+                  </div>
+                  <div className="custom-option" onClick={() => handleLanguageChange('ru')}>
+                  <p>Rus</p>
+                  </div>
+                 </div>
+                
+                 </div>
                      </Link>
-                   
-                      <div className={`links_row ${Language ? "Language" : ""}` } >
-                        <div className="list_link">
-                        <Link href={'/'}>
-                            <div className="g">
-                            <div className="g_all">
-                                <Image src={rasm4}  alt='rasm'/> 
-                                </div>
-                            <div className="g_all">
-                                <p>Development of mobile applications</p>
-                                </div>
-                               
-                            </div>
-                            </Link>
-                            <Link href={'/'}>
-                            <div className="g">
-                            <div className="g_all">
-                                <Image src={rasm5}  alt='rasm'/>
-                                </div>
-                            <div className="g_all">
-                                <p>Development and implementation ERP systems</p>
-                                </div>
-                                
-                            </div>
-                            </Link>
-                        </div>
-                      </div>
+                
                 </li>
                 <li>
                     <Link href={'#contact'}>
                     <div className="btn">
-                     <p> Contact </p>
+                     <p> {t("navbar.Contact")} </p>
                  </div>
                     </Link>
                  

@@ -7,20 +7,22 @@ import Image from 'next/image';
 import rasm from '../../img/main.svg'
 import { Typewriter } from 'react-simple-typewriter'
 import AOS from '../AOS/index'
+import { useTranslation } from 'react-i18next';
 const Main = () => {
+  let {t} =  useTranslation() 
     return (
         <div className='container'> 
         <AOS/>
            <div className="main">
            <div className="main_all"  data-aos="fade-up">
               <Image src={logo}  alt='rasm'/>   
-              <h1>IT-Outsourcing Company</h1>
+              <h1>{t("Company")}</h1>
               <div className='App'>
       <h1 style={{ paddingTop: '5rem', fontWeight: 'normal',marginTop:'-10%' }}>
        {' '}
         <span style={{ color: '#1B5BF7', fontSize:'40px', fontWeight: 'bold' }}>
           <Typewriter
-            words={['Development and implementation ERP systems']}
+            words={[t("Development")]}
             loop={5}
             cursor
             typeSpeed={70}
@@ -30,7 +32,7 @@ const Main = () => {
         </span>
       </h1>
     </div>
-              <button>Contact</button>
+              <button>{t("navbar.Contact")}</button>
             </div>
             <div className="main_all">
             <div className="imf">

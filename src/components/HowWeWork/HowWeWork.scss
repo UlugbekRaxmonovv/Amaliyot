@@ -1,0 +1,29 @@
+#HowWeWork{
+    padding: 20px 0;
+    .HowWeWork_all{
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 20px;
+        .HowWeWork_row{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            flex-direction: column;
+            .img{
+             img{
+                width: 81px;
+                height: 80px;
+                object-fit: cover; 
+             }
+            }
+            .img_All{
+                text-decoration: line-through;
+            }
+        }
+        
+    }
+}
