@@ -29,15 +29,17 @@ const Navbar = () => {
     const [show1,setShow1] = useState(false)
     const [Language,seLanguage] = useState(false)
     const [menu,setmenu] = useState(false)
+    const [lange, setLange] = useState('en')
     useEffect(() => {
         if (typeof window !== 'undefined') { 
     document.body.style.overflow = menu ? 'hidden' : 'auto';
+    setLange(localStorage.getItem("i18nextLng") || 'en');
         }
       }, [menu]);   
 
 
       let {t,i18n} =  useTranslation() 
-      const [lange,setLange] =useState( localStorage.getItem("i18nextLng")  || 'en')
+      
   
   
       useEffect(() =>{
@@ -46,8 +48,10 @@ const Navbar = () => {
   
        const handleLanguageChange = (lang) => {
           setLange(lang);
-          localStorage.setItem("i18nextLng", lang);
-          i18n.changeLanguage(lang);
+          if (typeof window !== 'undefined') {
+            localStorage.setItem("i18nextLng", lang);
+        }
+        i18n.changeLanguage(lang);
         };
 
     const handelShow = () => {
