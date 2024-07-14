@@ -17,20 +17,12 @@ const HowWeWork = () => {
 <div className="HowWeWork_all">
     <div className="HowWeWork_row">
         <div className="img">
-           <div className="img_All">
-            <Image src={rasm} alt='rasm1'/>
-           </div>
-        </div>
-        <h4>Сontact</h4>
-        <p>Send us your project request or project idea.</p>
-    </div>
-    <div className="HowWeWork_row">
-        <div className="img">
         <Image src={rasm} alt='rasm1'/>
-           <div className="img_All">
+         
+        </div>
+        <div className="img_All">
            
            </div>
-        </div>
         <h4>Сontact</h4>
         <p>Send us your project request or project idea.</p>
     </div>

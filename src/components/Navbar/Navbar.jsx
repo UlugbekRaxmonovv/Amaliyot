@@ -25,6 +25,7 @@ import '../../app/i18n'
 
 
 const Navbar = () => {
+    let {t,i18n} =  useTranslation() 
     const [show,setShow] = useState(false)
     const [show1,setShow1] = useState(false)
     const [Language,seLanguage] = useState(false)
@@ -38,7 +39,7 @@ const Navbar = () => {
       }, [menu]);   
 
 
-      let {t,i18n} =  useTranslation() 
+     
       
   
   
@@ -83,7 +84,7 @@ const Navbar = () => {
     return (
        <header  onMouseLeave={handleHide1}>
         <AOS/>
-     <div className="container"  data-aos="zoom-in-down">
+     <div className="container">
         <nav onMouseLeave={handleHide} >
         <Image src={logo}  alt='rasm'/>
             <ul className={`ul_list ${menu ? "menu" : "close"}`} onMouseLeave={handleHide2}>
@@ -193,7 +194,7 @@ const Navbar = () => {
                       <div className={`link ${show ? "fix" : ""}` } >
                         <p>Portfolio</p>
                         <div className="list_link">
-                        <Link href={'/'} >
+                        <Link href={'#Commerce'} >
                             <div className="g">
                             <div className="g_all">
                                 <Image src={rasm}  alt='rasm'/> 
@@ -204,7 +205,7 @@ const Navbar = () => {
                                
                             </div>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'#Smsuz'}>
                             <div className="g">
                             <div className="g_all">
                                 <Image src={rasm2}  alt='rasm'/>
@@ -215,7 +216,7 @@ const Navbar = () => {
                                 
                             </div>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'#Deliver'}>
                             <div className="g">
                             <div className="g_all">
                                 <Image src={rasm3}  alt='rasm'/>
@@ -226,7 +227,7 @@ const Navbar = () => {
                                
                             </div>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'#Iman'}>
                             <div className="g">
                             <div className="g_all">
                                 <Image src={rasm1}  alt='rasm'/>
