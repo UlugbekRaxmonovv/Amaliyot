@@ -25,6 +25,28 @@
    }
 }
 
+
+@media(max-width:400px){
+    .home-wrapper{
+        position: fixed;
+        top: 85%;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        background-color: blue;
+        border-radius: 30%;
+       height: 80px;
+       z-index: 1000;
+       cursor: pointer;
+       svg{
+        font-size: 50px;
+        color: white;
+       }
+    }
+    
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .container{
     max-width: 1280px;

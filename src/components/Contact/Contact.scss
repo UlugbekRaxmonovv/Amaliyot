@@ -205,6 +205,87 @@
     }  
 }
 
+@media(max-width:400px){
+    .Contact_m{
+        box-shadow: 1px 1px 5px  1px rgb(229, 229, 229);
+        padding: 40px 0;
+        border-radius: 20px;
+    
+        .hammasi{
+            display: flex;
+            align-items: self-start;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 0px 10px;
+            .Contact_row{
+             
+               .input{
+                   width: 320px !important;
+                   height: 300px !important;
+                   border-radius: 10px;
+                   margin-bottom: 10px;
+               }
+       
+               .input_all{
+                   width: 320px !important;
+                   border-radius: 10px;
+                   margin-bottom: 10px;
+               }
+               .btn_k{
+                   margin-top: -55%;
+                   padding: 0 8px;
+                   transition: all .15s linear;
+                   :hover{
+                    transform: scale(1.02);
+                   }
+                   .btn_k_rwo{
+                    width: 200px !important;
+                   }
+               }
+    
+               .phon{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px 0;
+                margin-top: 20px;
+                .phon_all{
+                    svg{
+                        color:blue;
+                        font-size: 25px;
+                    }
+                    h1{
+                        font-size: 18px;
+                        font-weight: 400;
+                        max-width: 250px;
+                        width: 100%;
+                        color: black;
+                        a{
+                            color:blue;
+                            text-decoration: none;
+                        }
+    
+                    }
+                }
+               }
+               .gmail{
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                margin-top: 10px;
+               }
+               iframe{
+                border: none;
+                margin-top: 20px;
+                width: 320px;
+                height: 180px;
+               }
+           }
+        }
+    
+    }  
+}
+
 @media(max-width:360px){
     .Contact_m{
         box-shadow: 1px 1px 5px  1px rgb(229, 229, 229);
